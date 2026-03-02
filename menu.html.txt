@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>The Pink Grill | Menu</title>
+  <meta name="description" content="The Pink Grill menu: drinks, afternoon tea, and desserts." />
+  <meta name="keywords" content="The Pink Grill, menu, drinks, dessert, catering" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Pink Grill Home">
+        <span class="brand-mark" aria-hidden="true">♥</span>
+        <span class="brand-name">The Pink Grill</span>
+        <span class="brand-mark" aria-hidden="true">♥</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="info.html">Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Menu</h2>
+      <p class="lead">Sweet & Savoury favourites — simple, fresh, and perfect for a sweet treat.</p>
+    </section>
+
+    <section class="card">
+      <h2>Drink Menu</h2>
+      <table class="menu-table">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Pink Lemonade</td><td>Fresh lemon and strawberry syrup</td><td>€4.50</td></tr>
+          <tr><td>Iced Latte</td><td>Cold espresso with milk</td><td>€4.00</td></tr>
+          <tr><td>Hot Chocolate</td><td>Belgian chocolate with milk, cream and marshmallows</td><td>€5.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Afternoon Tea</h2>
+      <table class="menu-table">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Mini sandwiches (3)</td><td>Chicken / ham & cheese / veggie</td><td>€9.00</td></tr>
+          <tr><td>Scones</td><td>Plain or mixed fruit with fresh jam and cream</td><td>€4.00</td></tr>
+          <tr><td>Selection of mini desserts</td><td>Ask for daily specials</td><td>€8.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Dessert Menu</h2>
+      <table class="menu-table">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Cupcakes</td><td>Vanilla, chocolate, strawberry</td><td>€2.00</td></tr>
+          <tr><td>Chocolate Brownie</td><td>Warm brownie with ice cream</td><td>€3.00</td></tr>
+          <tr><td>Mini Cheesecake</td><td>Mixed berry cheesecake</td><td>€3.00</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2026 The Pink Grill</small>
+    </div>
+  </footer>
+</body>
+</html>

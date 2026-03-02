@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Pink Grill</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Pink Grill Home">
+        <span class="brand-mark" aria-hidden="true">♥</span>
+        <span class="brand-name">The Pink Grill</span>
+        <span class="brand-mark" aria-hidden="true">♥</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="info.html">Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>The Pink Grill</h1>
+        <p class="lead">
+          Catering and events with a signature pink twist — tailored to your occasion.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="tel:0852361862">Call to Reserve</a>
+          <a class="btn btn-outline" href="#catering">View Catering</a>
+        </div>
+
+        <p class="meta">
+          Reservations: <a href="tel:0852361862">085 236 1862</a>
+        </p>
+      </div>
+
+      <div class="hero-media">
+        <img src="images/party.png" alt="Party celebration" width="320" height="320" />
+      </div>
+    </section>
+
+    <section id="catering" class="card">
+      <h2>The Pink Grill will cater to all your needs</h2>
+      <ul class="pill-list">
+        <li>Weddings</li>
+        <li>Birthday Parties</li>
+        <li>Hen Parties</li>
+        <li>Christenings</li>
+        <li>Work Parties</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Meeting Your Business Needs</h2>
+      <p>
+        From team celebrations to corporate catering, we’ll help you plan a smooth event.
+        Call us to make a reservation at <a href="tel:0852361862">085 236 1862</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>Copyright © 2026 Abi Leonard</small>
+    </div>
+  </footer>
+</body>
+</html>

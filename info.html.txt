@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Learn about The Pink Grill's history, location and opening hours. Discover our story and visit us today." />
+  <meta name="keywords" content="The Pink Grill location, restaurant history, opening hours, grill restaurant" />
+  <meta name="author" content="Abi Leonard" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Pink Grill | Location & Our Story</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="The Pink Grill Home">
+        <span class="brand-mark" aria-hidden="true">♥</span>
+        <span class="brand-name">The Pink Grill</span>
+        <span class="brand-mark" aria-hidden="true">♥</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="info.html">Information</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Our Story</h2>
+      <p>
+        The Pink Grill was founded in 2018 with a vision to create a vibrant dining experience that combines
+        bold flavours with a welcoming atmosphere. Inspired by modern grill cuisine and a passion for community,
+        the restaurant quickly became a local favourite.
+      </p>
+      <p>
+        The name "The Pink Grill" reflects our signature interior design and brand identity — stylish, energetic,
+        and unforgettable. Our mission is to provide high-quality meals, friendly service, and a comfortable space
+        for families, friends, and food lovers.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Our Location</h2>
+      <p>We are located in the heart of the city, making us easily accessible for both locals and visitors.</p>
+
+      <p><strong>Address:</strong><br>
+        Ballyduff Field Cottage<br>
+        Ballyduff<br>
+        Kilmeedy<br>
+        Co. Limerick<br>
+        V42 X9P3<br>
+        Ireland
+      </p>
+
+      <p>
+        Find us on Google Maps:
+        <a href="https://www.google.com/maps" target="_blank" rel="noopener">View Location</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Opening Hours</h2>
+      <table class="menu-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Opening Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday - Thursday</td>
+            <td>11:00 AM – 9:00 PM</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>11:00 AM – 11:00 PM</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>10:00 AM – 11:00 PM</td>
+          </tr>
+          <tr>
+            <td>Sunday</td>
+            <td>10:00 AM – 8:00 PM</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Contact Us</h2>
+      <p>For reservations or event bookings, email us at:</p>
+      <p><a href="mailto:reservations@thepinkgrill.com">reservations@thepinkgrill.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <small>© 2026 The Pink Grill. All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
